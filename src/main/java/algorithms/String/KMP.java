@@ -1,2 +1,4 @@
-package algorithms.String;public class KMP {
+package algorithms.String;
+
+public class KMP {
 }

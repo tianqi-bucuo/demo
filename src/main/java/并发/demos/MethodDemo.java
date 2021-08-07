@@ -1,6 +1,6 @@
 package 并发.demos;
 
-public class Demo1 {
+public class MethodDemo {
 
     // sleep：线程暂停一段时间
     static void sleepTest() {

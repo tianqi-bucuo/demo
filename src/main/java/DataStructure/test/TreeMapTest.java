@@ -1,2 +1,4 @@
-package DataStructure.test;public class TreeMapTest {
+package DataStructure.test;
+
+public class TreeMapTest {
 }

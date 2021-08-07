@@ -1,6 +1,6 @@
 package jvm.ReferenceDemo;
 
-public class NormalReference {
+public class NormalReferenceDemo {
     public static void main(String[] args) {
         M m = new M();
         m = null;
