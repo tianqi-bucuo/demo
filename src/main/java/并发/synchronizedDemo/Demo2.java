@@ -2,7 +2,7 @@ package 并发.synchronizedDemo;
 
 import java.util.concurrent.ConcurrentHashMap;
 
-public class Demo1 {
+public class Demo2 {
 
     /**
      * jdk7: 分段锁(16段)

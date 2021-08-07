@@ -2,7 +2,7 @@ package jvm.ClassLoadDemo;
 
 import java.io.*;
 
-public class MyClassLoader2 extends ClassLoader{
+public class MyClassLoader extends ClassLoader{
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         File path = new File("F:/", name.replaceAll("\\.", "/").concat(".class"));
@@ -26,7 +26,7 @@ public class MyClassLoader2 extends ClassLoader{
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         // System.out.println(File.separator);
 
-        MyClassLoader2 loader = new MyClassLoader2();
+        MyClassLoader loader = new MyClassLoader();
         Class clazz = loader.loadClass("test.Person");
         Object p = clazz.newInstance();
     }

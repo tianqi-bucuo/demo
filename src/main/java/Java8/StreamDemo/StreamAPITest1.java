@@ -1,7 +1,7 @@
 package Java8.StreamDemo;
 
-import Java8新特性.方法引用.Employee;
-import Java8新特性.方法引用.EmployeeData;
+import Java8.方法引用.Employee;
+import Java8.方法引用.EmployeeData;
 import org.junit.Test;
 
 import java.util.Arrays;

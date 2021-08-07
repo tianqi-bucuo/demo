@@ -1,2 +1,4 @@
-package DataStructure.test;public class TreeSetTest {
+package DataStructure.test;
+
+public class TreeSetTest {
 }

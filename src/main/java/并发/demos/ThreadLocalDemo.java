@@ -1,2 +1,4 @@
-package 并发.demos;public class ThreadDemo {
+package 并发.demos;
+
+public class ThreadLocalDemo {
 }

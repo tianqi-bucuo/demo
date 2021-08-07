@@ -1,5 +1,6 @@
 package DesignPattern.ASM;
 
+
 import org.objectweb.asm.ClassReader;
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.FieldVisitor;
@@ -42,8 +43,6 @@ public class ClassPrinter extends ClassVisitor {
         //ClassReader cr = new ClassReader("java.lang.Runnable");
         ClassReader cr = new ClassReader(
                 ClassPrinter.class.getClassLoader().getResourceAsStream("com/mashibing/dp/ASM/T1.class"));
-
-
         cr.accept(cp, 0);
     }
 }

@@ -1,2 +1,4 @@
-package DataStructure.heap;public class HeapSort {
+package DataStructure.heap;
+
+public class HeapSort {
 }
